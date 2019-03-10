@@ -1,7 +1,9 @@
-Sample Module Repository
-========================
+Python Adv - D01
+================
 
-This simple project is an example repo for Python projects.
+Voorbeelden bij Python Advanced - D01
+
+Structuur gebaseerd op:  an example repo for Python projects.
 
 `Learn more <http://www.kennethreitz.org/essays/repository-structure-and-python>`_.
 

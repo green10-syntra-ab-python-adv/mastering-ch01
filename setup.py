@@ -14,11 +14,11 @@ with open('LICENSE') as f:
 setup(
     name='examples',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Python Advanced D01',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Hans Vandenbogaerde',
+    author_email='Hans Vandenbogaerde',
+    url='https://github.com/HansVdb/pythonavd-d01.git',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
