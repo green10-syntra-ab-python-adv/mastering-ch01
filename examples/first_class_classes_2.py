@@ -1,7 +1,7 @@
 import collections, types, copy
 
 
-class Calculator:
+class Calculator(object):
     """Incomplete calculator, it seems"""
 
     def __init__(self):
