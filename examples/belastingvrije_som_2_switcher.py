@@ -23,7 +23,7 @@ else:
 if (aantal_jonger_dan_3 <= aantal_kinderen):
 
     print("Aantal kinderen: ", aantal_kinderen)
-    print("Aantal jonger dan 3 jaar", aantal_jonger_dan_3)
+    print("Aantal jonger dan 3 jaar: ", aantal_jonger_dan_3)
 
     belastingvrije_som = 7090.00
 

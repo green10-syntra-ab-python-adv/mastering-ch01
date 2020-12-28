@@ -27,7 +27,7 @@ class Manager(Employee):
     def __init__(self, name, fixed_salary, variable_salary):
         """ constructor - executing when creating a new Manager object
 
-        :param name : name of the Manaeger
+        :param name : name of the Manager
         :param fixed_salary : the monthly fixed salary
         :param variable_salary : the montly variable salary at 100%
         """
