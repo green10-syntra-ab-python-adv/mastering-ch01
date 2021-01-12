@@ -36,7 +36,7 @@ class Airplane:
     def fly(self):
         print("Airplane flying")
 
-class Whale:
+class Whale(Fish):
     def swim(self):
         print("Whale swimming")
 
