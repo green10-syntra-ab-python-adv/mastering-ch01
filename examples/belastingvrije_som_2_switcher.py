@@ -23,7 +23,7 @@ switcher = {
     1: lambda: 1650.00,
     2: lambda: 4240.00,
     3: lambda: 9500.00,
-    4: lambda: 15360.00
+    4: lambda: 15360.00,
 }
 # het tweede argument van get is de default keuze
 # de \ is een teken om de code over meerdere lijnen te kunnen splitsen

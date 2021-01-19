@@ -10,8 +10,6 @@ class Duck(Bird):
         print("Duck flying")
 
 class Eagle(Bird):
-    def fly(self):
-        print("Eagle flying")
     def dive(self):
         print("Eagle diving")
 
