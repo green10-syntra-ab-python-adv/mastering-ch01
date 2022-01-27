@@ -80,23 +80,23 @@ class Manager(Member):
 
 
 john = Employee("John", 1555)
-jeff = Member(yearly_membership_fee=1200, date_paid_str="20190701",
+jeff = Member(yearly_membership_fee=1200, date_paid_str="20220101",
                 name="Jeff", fixed_salary=1800)
 
-print ("John receives", john.get_fixed_salary())
-print("Jeff receives", jeff.get_fixed_salary())
+print ("John receives %.2f as fixed salary" % john.get_fixed_salary())
+print("Jeff receives %.2f as fixed salary" % jeff.get_fixed_salary())
 
 mary = Manager("Mary", 1500, 1000)
 
-print ("Mary receives", mary.get_fixed_salary(), "as fixed salary")
+print ("Mary receives %.2f as fixed salary" % mary.get_fixed_salary())
 
 
 """Output
 
 Employee John created
 Employee Jeff created
-John receives 1555
-Jeff receives 1900.0
+John receives 1555.00 as fixed salary
+Jeff receives 1900.00 as fixed salary
 Employee Mary created
-Mary receives 1700.0 as fixed salary
+Mary receives 1700.00 as fixed salary
 """

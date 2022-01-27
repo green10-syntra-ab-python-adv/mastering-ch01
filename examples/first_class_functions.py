@@ -29,7 +29,7 @@ def try_me(self):
     print("This is wat I do")
     self()
 
-# a function is an object with attributed and methods
+# a function is an object with attributes and methods
 setattr(foo, 'name', 'foo')
 foo.creator = "Hans"
 foo.print = try_me
