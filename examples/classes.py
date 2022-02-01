@@ -7,7 +7,7 @@ class Employee:
         :param name : name of the Employee
         :param fixed_salary : the monthly fixed salary
         """
-        self.name = name
+        self._name = name
         self.fixed_salary = fixed_salary
         print("Employee %s created" % name)
 
